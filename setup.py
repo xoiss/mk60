@@ -9,7 +9,7 @@ except:
 
 setuptools.setup(
     name="mk60",
-    version="0.1a1",
+    version="0.1a2",
     description="Utility assisting in creation of D3-28 tapes",
     url="https://github.com/xoiss/mk60",
     author="Alexander A. Strelets",
@@ -17,7 +17,7 @@ setuptools.setup(
     license="Public Domain",
     download_url="https://github.com/xoiss/mk60",
     long_description=long_description,
-    platforms=['Linux', 'Windows'],
+    platforms=['Linux', 'Windows', 'macOS'],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Environment :: Console',
