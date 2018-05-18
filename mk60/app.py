@@ -6,7 +6,7 @@ sample_rate = 48000
 soft_ends = True
 
 
-assert sample_rate % 1000 == 0
+assert sample_rate and sample_rate % 2000 == 0
 
 
 def main():
