@@ -13,7 +13,7 @@ def main():
     if len(sys.argv) < 1 + 2:
         raise SystemExit("specify input and output files in the command line")
 
-    fi = open(sys.argv[1], 'rU')
+    fi = open(sys.argv[1], 'r')
     fo = open(sys.argv[2], 'wb')
 
     # skip header; will write it in the end
