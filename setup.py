@@ -9,7 +9,7 @@ except:
 
 setuptools.setup(
     name="mk60",
-    version="0.2a2",
+    version="0.3a1",
     description="Utility assisting in creation of D3-28 tapes",
     url="https://github.com/xoiss/mk60",
     author="Alexander A. Strelets",
